@@ -1,8 +1,9 @@
 :root {
   --primary: #ffce00;
   --secondary: #fe4880;
+    --dark: #212121;
   --light: #f3f3f3;
-  --dark: #212121;
+
 }
 * {
   margin: 0;
@@ -15,12 +16,12 @@ body {
 }
 
 .flipcard {
-  margin: 5% auto 0;
+  margin: 100% auto 0;
   width: 400px;
   height: 600px;
+  perspective: 1000px;
 }
-
-.flipcard-face {
+.flipcard-inner {
   width: 100%;
   height: 100%;
   transition: transform 1s;
@@ -28,10 +29,10 @@ body {
   cursor: pointer;
   position: relative;
 }
-
 .flipcard-inner.is-flipped {
   transform: rotateY(180deg);
 }
+
 .flipcard-face {
   position: absolute;
   width: 400px;
