@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="src/main.css" />
   </head>
   <body>
-      <div class="card">
-      <div class="card-inner">
-        <div class="card-face card-face-front">
+      <div class="flipcard">
+      <div class="flipcard-inner">
+        <div class="flipcard-face flipcard-face-front">
           <h2>Recipe</h2>
         </div>
-        <div class="card-face card-face-back"></div>
-        <div class="card-content">
-          <div class="card-header">
+
+        <div class="flipcard-face flipcard-face-back"></div>
+        <div class="flipcard-content">
+          <div class="flipcard-header">
             <img src=" " alt="" class="" />
             <h2>Recipe Name</h2>
           </div>
-          <div class="card-body">
+          <div class="flipcard-body">
             <h3>Poultry</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
