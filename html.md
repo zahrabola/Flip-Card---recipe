@@ -13,7 +13,6 @@
         <div class="flipcard-face flipcard-face-front">
           <h2>Recipe</h2>
         </div>
-
         <div class="flipcard-face flipcard-face-back"></div>
         <div class="flipcard-content">
           <div class="flipcard-header">
@@ -32,7 +31,6 @@
         </div>
       </div>
     </div>
-
     <script src="main.js"></script>
   </body>
 </html>
