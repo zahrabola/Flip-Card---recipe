@@ -1,38 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card Flip</title>
-    <link rel="stylesheet" href="src/main1.css" />
-  </head>
-  <body>
-    <div class="flipcard">
-      <div class="flipcard-inner">
-        <div class="flipcard-face flipcard-face-front">
-          <h2>Recipe</h2>
-        </div>
-
-        <div class="flipcard-face flipcard-face-back"></div>
-        <div class="flipcard-content">
-          <div class="flipcard-header">
-            <img src=" " alt="" class="" />
-            <h2>Recipe Name</h2>
-          </div>
-          <div class="flipcard-body">
-            <h3>Poultry</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium, quis repellendus. Repudiandae sapiente et hic sunt
-              eveniet voluptate eum vitae dolorem, voluptates sit, non
-              reiciendis ad ipsam ducimus corporis a!
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="main.js"></script>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Card</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<div class="card">
+		<div class="card__inner">
+			<div class="card__face card__face--front">
+				<h2>Card Front</h2>
+			</div>
+			<div class="card__face card__face--back">
+				<div class="card__content">
+					<div class="card__header">
+						<img src="pp.jpg" alt="" class="pp" />
+						<h2>Tyler Potts</h2>
+					</div>
+					<div class="card__body">
+						<h3>JavaScript Wizard</h3>
+						<p>Lorem ipsum <strong>dolor</strong> sit amet, consectetur <strong>adipiscing</strong> elit. Sed id erat a magna lobortis dictum. Nunc est arcu, <strong>lacinia</strong> quis sapien placerat, <strong>laoreet</strong> tincidunt nulla.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
 </html>
