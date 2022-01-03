@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card Flip</title>
-    <link rel="stylesheet" href="src/main.css" />
+    <link rel="stylesheet" href="src/main1.css" />
   </head>
   <body>
-      <div class="flipcard">
+    <div class="flipcard">
       <div class="flipcard-inner">
         <div class="flipcard-face flipcard-face-front">
           <h2>Recipe</h2>
@@ -32,6 +32,7 @@
         </div>
       </div>
     </div>
-    <script src="src/main.js"></script>
+
+    <script src="main.js"></script>
   </body>
 </html>
