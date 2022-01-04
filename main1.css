@@ -1,14 +1,15 @@
 :root {
-  --primary:  #71d8db;
+  --primary: #71d8db;
   --secondary: #fe4880;
-    --dark: #212121;
+  --dark: #212121;
   --light: #f3f3f3;
-
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Courier New", Courier, monospace;
   width: 100%;
@@ -16,11 +17,12 @@ body {
 }
 
 .flipcard {
-  margin: 100% auto 0;
+  margin: 100px auto 0;
   width: 400px;
   height: 600px;
   perspective: 1000px;
 }
+
 .flipcard-inner {
   width: 100%;
   height: 100%;
@@ -29,44 +31,53 @@ body {
   cursor: pointer;
   position: relative;
 }
+
 .flipcard-inner.is-flipped {
   transform: rotateY(180deg);
 }
 
 .flipcard-face {
   position: absolute;
-  width: 400px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: hidden;
+  border-radius: 16px;
   box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
+
 .flipcard-face-front {
   background-image: linear-gradient(
     to bottom right,
-    var(--primary) var(--secondary)
+    var(--primary),
+    var(--secondary)
   );
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .flipcard-face-front h2 {
-  color: #f3f3f3;
+  color: #fff;
   font-size: 32px;
 }
+
 .flipcard-face-back {
   background-color: var(--light);
   transform: rotateY(180deg);
 }
+
 .flipcard-content {
   width: 100%;
   height: 100%;
 }
+
 .flipcard-header {
   position: relative;
   padding: 30px 30px 40px;
 }
+
 .flipcard-header:after {
   content: "";
   display: block;
@@ -75,8 +86,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
-  border-radius: 0 0 50% 0;
   background-image: linear-gradient(
     to bottom left,
     var(--primary) 10%,
@@ -84,4 +93,85 @@ body {
   );
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
+}
+
+.image {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #fff;
+  object-fit: cover;
+}
+
+.flipcard-header h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.flipcard-body {
+  padding: 30px;
+}
+
+.flipcard-body h3 {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.flipcard-body p {
+  color: var(--dark);
+  font-size: 18px;
+  line-height: 1.4;
+}
+.card-list {
+  display: flex;
+}
+.stack {
+  margin: 100px auto 0;
+  width: 500px;
+  height: 500px;
+}
+
+.stackcard-face {
+  border-radius: 16px;
+  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.stackcard-header {
+  position: relative;
+  padding: 30px 30px 40px;
+}
+.stackcard-header h2 {
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.flipcard-body h3 {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.flipcard-body p {
+  color: var(--dark);
+  font-size: 18px;
+  line-height: 1.4;
+}
+.stack:hover {
+  transform: translateY(-1rem);
+}
+.stack:hover ~ .stack {
+  transform: translateX(130px);
+}
+.stack:not(:first-child) {
+  margin-left: -5px;
 }
