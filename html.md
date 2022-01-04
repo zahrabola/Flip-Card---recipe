@@ -31,8 +31,7 @@
         </div>
       </div>
     </div>
-    
-    <div class="stack">
+     <div class="stack">
       <div class="stackcard-face stackcard-face-back">
         <div class="stackcard-content">
           <div class="stackcard-header">
@@ -50,8 +49,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="stack">
       <div class="stackcard-face stackcard-face-back">
         <div class="stackcard-content">
           <div class="stackcard-header">
@@ -69,8 +66,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="stack">
       <div class="stackcard-face stackcard-face-back">
         <div class="stackcard-content">
           <div class="stackcard-header">
