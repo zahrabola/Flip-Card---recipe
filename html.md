@@ -31,6 +31,64 @@
         </div>
       </div>
     </div>
+    
+    <div class="stack">
+      <div class="stackcard-face stackcard-face-back">
+        <div class="stackcard-content">
+          <div class="stackcard-header">
+            <img src="pp.jpg" alt="" class="image" />
+            <h2>Recipe Name 2</h2>
+          </div>
+          <div class="flipcard-body">
+            <h3>chicken</h3>
+            <p>
+              sit amet consectetur adipisicing elit. Praesentium, quis
+              repellendus. Repudiandae sapiente et hic sunt eveniet voluptate
+              eum vitae dolorem, voluptates sit, non reiciendis ad ipsam ducimus
+              corporis a!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stack">
+      <div class="stackcard-face stackcard-face-back">
+        <div class="stackcard-content">
+          <div class="stackcard-header">
+            <img src="pp.jpg" alt="" class="image" />
+            <h2>Recipe Name 2</h2>
+          </div>
+          <div class="flipcard-body">
+            <h3>chicken</h3>
+            <p>
+              sit amet consectetur adipisicing elit. Praesentium, quis
+              repellendus. Repudiandae sapiente et hic sunt eveniet voluptate
+              eum vitae dolorem, voluptates sit, non reiciendis ad ipsam ducimus
+              corporis a!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stack">
+      <div class="stackcard-face stackcard-face-back">
+        <div class="stackcard-content">
+          <div class="stackcard-header">
+            <img src="pp.jpg" alt="" class="image" />
+            <h2>Recipe Name 2</h2>
+          </div>
+          <div class="flipcard-body">
+            <h3>chicken</h3>
+            <p>
+              sit amet consectetur adipisicing elit. Praesentium, quis
+              repellendus. Repudiandae sapiente et hic sunt eveniet voluptate
+              eum vitae dolorem, voluptates sit, non reiciendis ad ipsam ducimus
+              corporis a!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
